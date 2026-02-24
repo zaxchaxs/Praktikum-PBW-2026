@@ -1,0 +1,39 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;   
+}
+
+/* Class */
+.p-custom {
+    color: green;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    /* overflow: ; */
+}
+
+/* ID */
+#p2 {
+    color: black;
+}
+
+.section-1 {
+    /* background-color: brown; */
+    /* background: linear-gradient(45deg, brown, blue); */
+    background-image: url("https://media.istockphoto.com/id/2168277462/id/foto/pemuda-berkendara-di-jalanan-di-belakang-ojek-selama-perjalanan-pagi.jpg?s=1024x1024&w=is&k=20&c=sgyDb9TLt6hfPGgLVl_7fXeQekmI0iMbvyYHakiWDCI=");
+}
+
+.section-2 {
+    margin: 20px;
+    padding: 50px;
+}
+
+.border {
+    border: solid red;
+}
