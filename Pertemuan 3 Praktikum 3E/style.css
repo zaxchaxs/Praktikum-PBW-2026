@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    background-color: bisque;
+
+    /* Tambahin ini */
+    border: blue solid;
+    height: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border {
+    border: solid black 1px;
+}
+
+.item {
+    width: 200px;
+    background-color: gray;
+    margin: 5px;
+
+    /* Tambahin ini */
+    height: fit-content;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 640px)  {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+    }
+
+    .item {
+        width: 100px;
+    }
+}
