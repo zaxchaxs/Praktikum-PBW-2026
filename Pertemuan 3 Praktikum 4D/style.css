@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    /* width: 900px; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    border: purple solid 2px;
+    padding: 20px;
+    height: 800px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    border: solid black 1px;
+}
+
+.item {
+    background-color: gray;
+    margin: 5px;
+    width: 300px;
+    height: fit-content;
+}
+
+.small {
+    flex-grow: 1;
+}
+.medium {
+    flex-grow: 2;
+}
+.medium {
+    flex-grow: 3;
+}
