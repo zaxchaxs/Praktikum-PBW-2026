@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .bg-blue {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btn">
+        Click Me!
+    </button>
+
+    <h1 id="title">Title</h1>
+    <ul>
+        <li>Satu</li>
+        <li>Dua</li>
+        <li>Tiga</li>
+        <li>Empat</li>
+    </ul>
+
+    <script>
+        // Cara 1
+        var myClass = "PBW 4E";
+        var myClass = "Testing";
+        // console.log(myClass);
+
+        // Cara 2
+        let myClass2 = "PBW 4E Hari selasa";
+        // console.log(myClass2);
+
+        // Cara Konstan
+        const myVariableConstant = "Ini isi konstan";
+
+        // ### Tipe DATA
+        // Tipe data Primitive
+        const myVariable = true;
+        // console.log(typeof myVariable);
+
+        // Tipe data non primitive;
+        const myArray = [1, 2, 3, "String woi", true, ["array2"]];
+        // console.log(myArray);
+
+        const myObject = {
+            name: "Taqi",
+            npm: 24130213,
+            age: 20,
+            isMarried: false
+        };
+        // console.log(myObject);
+
+        const number1 = 80;
+        const number2 = 70;
+
+        // FUNCTION
+        function function1(name, age = 20) {
+            console.log(`Halo nama saya ${name}, umur saya ${age}`);
+
+            // Inner Function
+            function functionAnak() {
+                console.log("Saya kuliah di unsika");
+
+                // Grandchild function
+                function functionCucu() {
+                    console.log("Ini function cucu");
+                }
+            }
+            functionAnak();
+        }
+        function1("Irzi", 1000);
+
+        // Return Function
+        function returningFunction() {
+            return "Bebas deh apa aja";
+        };
+        const result = returningFunction()
+        // console.log(result);
+
+        // Spread Param
+        function spreadFunction(param1, param2, ...spreadParam) {
+            console.log(`Parameter 1: ${param1}`);
+            console.log(`Parameter 2: ${param2}`);
+            console.log(spreadParam);
+        }
+        // spreadFunction("Gajah", "Windah", 10, "Miawaug", "Kodok", "Katak", "Bizer", 500);
+
+        // Recursive Function
+        let index = 0;
+        function testingFunction() {
+            console.log(index);
+            index++;
+            testingFunction();
+        };
+
+
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
