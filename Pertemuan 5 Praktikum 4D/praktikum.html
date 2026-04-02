@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 4D</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+
+    <h1 class="text-primary">Hello, Mom!</h1>
+    <p class="h2 text-success m-0 m-md-3 m-lg-5 p-3 border border-2 border-black">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Reiciendis, perferendis ipsam. Laudantium adipisci, molestias, minima magni ea omnis et odio
+        aliquam suscipit numquam officiis repellendus! Quibusdam nihil assumenda odit ratione.</p>
+    <p class="h3 text-danger text-start text-sm-center">Lorem ipsum dolor sit amet</p>
+
+    <!-- Layouting Display -->
+    <div class="d-flex gap-3 text-white justify-content-start justify-content-md-evenly">
+        <p class="bg-danger p-2">Item 1</p>
+        <p class="bg-primary p-2">Item 2</p>
+        <p class="bg-warning p-2">Item 3</p>
+    </div>
+
+    <!-- Container -->
+    <p class="h2 container text-warning p-3 border border-2 border-black">Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Reiciendis, perferendis ipsam. Laudantium adipisci, molestias, minima magni ea omnis et odio
+        aliquam suscipit numquam officiis repellendus! Quibusdam nihil assumenda odit ratione.</p>
+
+
+    <!-- Components -->
+    <div class="m-4 d-flex flex-column gap-4">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Ini adlaah title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, maiores tempore tempora obcaecati,
+                    inventore, dicta voluptatibus optio doloremque totam labore cumque nihil sunt commodi aliquid odit a
+                    est soluta dolorum.</p>
+            </div>
+            <div class="card-footer">
+                <p>Ini adalah footer</p>
+            </div>
+        </div>
+
+
+        <!-- BTN Components -->
+        <button data-bs-toggle="modal" data-bs-target="#iniModalSaya" class="btn btn-danger">Click Me!</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="iniModalSaya" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
